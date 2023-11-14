@@ -26,7 +26,6 @@ class ViewController: UIViewController {
     
     
     // Mason sucks at fantasy
-    //mason really does suck
     
 }
 
