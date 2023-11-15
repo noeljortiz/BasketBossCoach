@@ -53,10 +53,10 @@
             </objects>
             <point key="canvasLocation" x="973.28244274809151" y="-2.1126760563380285"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Roster-->
         <scene sceneID="Ubf-Ik-y4L">
             <objects>
-                <viewController id="uoY-ti-cts" sceneMemberID="viewController">
+                <viewController id="uoY-ti-cts" customClass="ViewControllerRoster" customModule="BasketBossCoach" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z4g-vq-wBi">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,7 +95,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </barButtonItem>
-                        <textField key="titleView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="#" textAlignment="natural" minimumFontSize="17" id="0oO-kI-Fd1">
+                        <textField key="titleView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="#" textAlignment="natural" minimumFontSize="17" id="0oO-kI-Fd1">
                             <rect key="frame" x="178" y="5" width="37" height="34"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -103,7 +103,7 @@
                         </textField>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="U18-Wf-jhj">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="mJU-uN-hD8">
-                                <rect key="frame" x="-37" y="-17" width="87" height="33"/>
+                                <rect key="frame" x="290" y="5" width="87" height="34.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Button"/>
@@ -115,12 +115,12 @@
             </objects>
             <point key="canvasLocation" x="97" y="648"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Start-->
         <scene sceneID="1l0-mZ-vi3">
             <objects>
-                <viewController id="YkS-1n-4tB" sceneMemberID="viewController">
+                <viewController id="YkS-1n-4tB" customClass="ViewControllerStart" customModule="BasketBossCoach" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="su7-sf-dkv">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PG" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gEN-2k-ME7">
@@ -187,10 +187,10 @@
             </objects>
             <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Game Log-->
         <scene sceneID="StF-oY-U5f">
             <objects>
-                <viewController id="RT4-Ag-Cu9" sceneMemberID="viewController">
+                <viewController id="RT4-Ag-Cu9" customClass="ViewControllerGameLog" customModule="BasketBossCoach" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qZQ-rL-UGj">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -229,14 +229,14 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </barButtonItem>
-                        <textField key="titleView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="OPP" textAlignment="natural" minimumFontSize="17" id="OIr-43-3Bk">
+                        <textField key="titleView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="OPP" textAlignment="natural" minimumFontSize="17" id="OIr-43-3Bk">
                             <rect key="frame" x="168.33333333333334" y="5" width="56.333333333333343" height="34"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="7If-fF-DOe">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="cJn-05-Rc0">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="cJn-05-Rc0">
                                 <rect key="frame" x="290" y="5" width="87" height="34.333333333333336"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -249,10 +249,10 @@
             </objects>
             <point key="canvasLocation" x="973" y="1084"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Court View-->
         <scene sceneID="sUF-w1-2T8">
             <objects>
-                <viewController id="rA0-My-oTC" sceneMemberID="viewController">
+                <viewController id="rA0-My-oTC" customClass="ViewControllerCourtView" customModule="BasketBossCoach" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8s9-7Q-96n">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -319,10 +319,10 @@
             </objects>
             <point key="canvasLocation" x="1849.6183206106869" y="1404.9295774647887"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Minutes Played-->
         <scene sceneID="Ya5-bk-reW">
             <objects>
-                <viewController id="ZAM-Ek-wxI" sceneMemberID="viewController">
+                <viewController id="ZAM-Ek-wxI" customClass="ViewControllerMinutesPlayed" customModule="BasketBossCoach" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uph-62-55M">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -359,7 +359,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="efm-jE-Bts"/>
+        <segue reference="wRm-7W-hUV"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="secondaryLabelColor">
