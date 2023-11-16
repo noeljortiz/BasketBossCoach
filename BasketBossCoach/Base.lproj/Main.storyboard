@@ -268,11 +268,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="addAction:" destination="RT4-Ag-Cu9" eventType="touchUpInside" id="8kO-2H-5Yt"/>
+                                </connections>
                             </button>
+                            <connections>
+                                <action selector="addAction:" destination="RT4-Ag-Cu9" id="QUK-O5-XGa"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="oppPointsOutlet" destination="OIr-43-3Bk" id="3rv-pF-hH2"/>
                         <outlet property="tableViewOutlet" destination="eHG-2W-XmM" id="GCU-xC-efg"/>
+                        <outlet property="youPointsOutlet" destination="IoZ-ze-9s2" id="HzO-pK-guM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dhp-rm-0KT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
