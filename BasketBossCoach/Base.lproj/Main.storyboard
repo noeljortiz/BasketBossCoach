@@ -148,10 +148,13 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fq9-C3-L10">
-                                <rect key="frame" x="116" y="663" width="140" height="35"/>
+                                <rect key="frame" x="132" y="663" width="108" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Minutes Played"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Court View"/>
+                                <connections>
+                                    <action selector="courtViewButton:" destination="YkS-1n-4tB" eventType="touchUpInside" id="B6D-Uu-TWS"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="C" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6X5-pz-aAx">
                                 <rect key="frame" x="213" y="223" width="97" height="34"/>
@@ -164,6 +167,13 @@
                         <color key="backgroundColor" systemColor="secondaryLabelColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="QD0-Yz-ITe"/>
+                    <connections>
+                        <outlet property="cOutlet" destination="6X5-pz-aAx" id="Ifj-I8-i4S"/>
+                        <outlet property="pfOutlet" destination="U5D-lk-BuX" id="QWe-kR-EGW"/>
+                        <outlet property="pgOutlet" destination="gEN-2k-ME7" id="WbY-dU-ojZ"/>
+                        <outlet property="sfOutlet" destination="Jdw-9v-qMl" id="TL2-lT-wHY"/>
+                        <outlet property="sgOutlet" destination="uP4-Vc-LJg" id="Jwd-6O-AOV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D8B-Yd-ERe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

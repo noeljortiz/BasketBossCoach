@@ -9,6 +9,27 @@ import UIKit
 
 class ViewControllerStart: UIViewController {
 
+    @IBOutlet weak var pgOutlet: UITextField!
+    
+    var pg : String = ""
+    
+    @IBOutlet weak var sgOutlet: UITextField!
+    
+    var sg : String = ""
+    
+    @IBOutlet weak var sfOutlet: UITextField!
+    
+    var sf : String = ""
+    
+    @IBOutlet weak var pfOutlet: UITextField!
+    
+    var pf : String = ""
+    
+    @IBOutlet weak var cOutlet: UITextField!
+    
+    var c : String = ""
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,14 +37,17 @@ class ViewControllerStart: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+   
+    @IBAction func courtViewButton(_ sender: Any) {
+        pg = (pgOutlet.text!)
+        sg = (sgOutlet.text!)
+        sf = (sfOutlet.text!)
+        pf = (pfOutlet.text!)
+        c = (cOutlet.text!)
     }
-    */
+    
+    
+    
+    
 
 }
