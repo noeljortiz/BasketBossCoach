@@ -1,8 +1,8 @@
 
 import UIKit
 struct Player{
-    var name = ""
-    var number = 0
+   var name = ""
+ var number = 0
 }
 class AppData{
     //static because only one will need to exist
@@ -26,7 +26,7 @@ class ViewControllerRoster: UIViewController,UITableViewDelegate,UITableViewData
                 for p in AppData.players{
                     print(p)
                 }
-                AppData.players.reloadData()
+              rostaView.reloadData()
             }
             
         }
