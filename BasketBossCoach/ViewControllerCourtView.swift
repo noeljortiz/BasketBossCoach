@@ -9,9 +9,18 @@ import UIKit
 
 class ViewControllerCourtView: UIViewController {
 
+    var pg2 = ""
+    var sg2 = ""
+    var sf2 = ""
+    var pf2 = ""
+    var c2 = ""
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("\(pg2 + sg2 + sf2 + pf2 + c2)")
         // Do any additional setup after loading the view.
     }
     
