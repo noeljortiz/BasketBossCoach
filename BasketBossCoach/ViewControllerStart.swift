@@ -7,7 +7,22 @@
 
 import UIKit
 
+public class Player2 : Encodable{
+    var name: String
+    var score: Int
+    
+    init(name: String, score: Int) {
+        self.name = name
+        self.score = score
+    }
+    
+    
+}
+
+
 class ViewControllerStart: UIViewController {
+        
+    let defaults = UserDefaults.standard
     
     var jerseyNumbers = [Int]()
 
@@ -46,6 +61,14 @@ class ViewControllerStart: UIViewController {
         sf = Int(sfOutlet.text!) ?? 0
         pf = Int(pfOutlet.text!) ?? 0
         c = Int(cOutlet.text!) ?? 0
+        
+        
+        
+        var pg0 = pgOutlet.text!
+        var sg0 = sgOutlet.text!
+        var sf0 = sfOutlet.text!
+        defaults.set(pg0, forKey: "pg")
+
     }
     
     
