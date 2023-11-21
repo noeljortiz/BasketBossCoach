@@ -1,9 +1,10 @@
 
 import UIKit
-struct Player{
+struct Player: Codable{
    var name = ""
  var number = 0
 }
+
 class AppData{
     //static because only one will need to exist
     static var players = [Player]()
@@ -21,7 +22,7 @@ class ViewControllerRoster: UIViewController,UITableViewDelegate,UITableViewData
             super.viewDidLoad()
             rostaView.delegate = self
              rostaView.dataSource = self
-            if  let n = defaults.string(forKey: "TheSquad"){
+            if let n = defaults.string(forKey: "TheSquad") {
              
                 for p in AppData.players{
                     print(p)
@@ -32,11 +33,11 @@ class ViewControllerRoster: UIViewController,UITableViewDelegate,UITableViewData
         }
         
     @IBAction func submitButt(_ sender: UIButton) {
-        var namee = nameOut.text!
-        var num = Int(numberOut.text!)!
-      var yay =  AppData.players.append(Player(name: namee,number: num))
+        let namee = nameOut.text!
+        let num = Int(numberOut.text!)!
+        let yay: () =  AppData.players.append(Player(name: namee,number: num))
         defaults.set(yay, forKey: "TheSquad")
-//        shoppigList.reloadData()
+
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

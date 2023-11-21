@@ -354,6 +354,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="5IZ-nU-3qZ"/>
+                    <connections>
+                        <outlet property="cLabel" destination="MeH-L3-UvA" id="MEh-Eg-aQm"/>
+                        <outlet property="pfLabel" destination="2ma-8n-40o" id="LKP-4C-O74"/>
+                        <outlet property="pgLabel" destination="YKZ-gM-nhA" id="Cb2-2a-9Lq"/>
+                        <outlet property="sfLabel" destination="xCM-yN-EWf" id="suR-aP-D0m"/>
+                        <outlet property="sgLabel" destination="pBt-nj-1uQ" id="lXc-Ry-aK5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NWz-GR-BBG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

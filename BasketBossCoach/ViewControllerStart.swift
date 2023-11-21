@@ -13,23 +13,23 @@ class ViewControllerStart: UIViewController {
 
     @IBOutlet weak var pgOutlet: UITextField!
     
-    var pg : String = ""
+    var pg : Int = 0
     
     @IBOutlet weak var sgOutlet: UITextField!
     
-    var sg : String = ""
+    var sg : Int = 0
     
     @IBOutlet weak var sfOutlet: UITextField!
     
-    var sf : String = ""
+    var sf : Int = 0
     
     @IBOutlet weak var pfOutlet: UITextField!
     
-    var pf : String = ""
+    var pf : Int = 0
     
     @IBOutlet weak var cOutlet: UITextField!
     
-    var c : String = ""
+    var c : Int = 0
     
     
     override func viewDidLoad() {
@@ -41,11 +41,11 @@ class ViewControllerStart: UIViewController {
 
    
     @IBAction func courtViewButton(_ sender: Any) {
-       pg = "\(pgOutlet.text!)"
-        sg = "\(sgOutlet.text!)"
-        sf = "\(sfOutlet.text!)"
-        pf = "\(pfOutlet.text!)"
-        c = "\(cOutlet.text!)"
+       pg = Int(pgOutlet.text!) ?? 0
+        sg = Int(sgOutlet.text!) ?? 0
+        sf = Int(sfOutlet.text!) ?? 0
+        pf = Int(pfOutlet.text!) ?? 0
+        c = Int(cOutlet.text!) ?? 0
     }
     
     
